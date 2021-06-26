@@ -83,6 +83,10 @@ ul {
   font-family: 'Inter';
 }
 
+.stats {
+  padding: 0;
+}
+
 .stats-item {
   margin-bottom: 20px;
   font-size: 1.3rem;
@@ -151,8 +155,8 @@ ul {
         flex-wrap: wrap;
   }
   .stats-item {
-    padding-right: 6%;
-    margin-top: 30px;
+    margin-left: 8%;
+    padding-bottom: 16px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
