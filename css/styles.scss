@@ -105,7 +105,7 @@ ul {
 .attribution {
     font-size: 11px;
     text-align: center;
-    color: var(--white)
+    color: var(--white);
 }
 
 .attribution a {
@@ -115,18 +115,22 @@ ul {
 }
 
 @media (min-width:768px) {
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: column;
+    }
     .banner {
         background: url(../images/image-header-mobile.jpg) no-repeat center/cover;
     }
     .container {
         display: flex;
-        flex-direction: row-reverse;
-        justify-content: center;
+        flex-flow: row-reverse;
         align-items: center;
-        padding: 0;
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-top: 16vh;
+        justify-content: center;
+        padding-bottom: 0;
+        margin-top: 8em;
     }
     .card {
         width: 50%;
@@ -136,9 +140,17 @@ ul {
         justify-content: start;
         align-items: flex-start;
         flex-wrap: wrap;
+        margin-top: 4em;
     }
     .stats-item {
         margin-left: 8%;
         padding-bottom: 16px;
+    }
+    .description {
+        margin-top: 1.5em;
+    }
+    .attribution {
+        margin-top: 32px;
+        margin-bottom: 32px;
     }
 }
